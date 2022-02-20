@@ -1,0 +1,7 @@
+{
+    "workbench.tree.indent": 17,
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "node_modules":true,
+    }
+}
