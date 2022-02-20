@@ -12,7 +12,6 @@ const Slide = () => {
 
   return (
     <div className="containerTotal">
-      <h2>VAMOS VER SE VAI DAR BOM</h2>
       <button id="left" onClick={clickLeft}>
         <img src="./img/seta-neon-azul.png" alt="seta" />
       </button>
