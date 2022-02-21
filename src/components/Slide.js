@@ -50,9 +50,9 @@ const Slide = () => {
             <h1>IMAGINE ?</h1>
             <span id="circle"></span>
             <p>
-              Image ter uma máquina dessas. Um Mazda RX-Vision!
+              Imagine ter uma máquina dessas. Um Mazda RX-Vision!
               <br />
-              Contendo motor rotativo de 562 cv de potência e fazendo de 0 a
+              Tendo um motor rotativo de 562 cv de potência e fazendo de 0 a
               300km/h em 3 segundos. É definitivamente uma obra de arte! O novo
               "Mazda RX-Vision GT3 Concept" está chegando e você não pode ficar
               de fora.
@@ -67,8 +67,22 @@ const Slide = () => {
 
         <div id="second" className="slide1 slide-Second">
           <div>
-            <h1>Mazda RX-Vision GT3 Concept </h1>
+            <h1>Mais sobre a Mazda</h1>
             <span className="circle2"></span>
+            <p>
+            A Mazda foi fundada em 20 de janeiro de 1920 e celebra o seu centenário neste ano. O protótipo do RX-Vision GT3 Concept foi apresentado no Salão de Tóquio de 2015, no Japão. Inspirado no fantástico 787B, que venceu as 24 Horas de Le Mans de 1991, com o trio de pilotos Volker Weidler, Johnny Herbert e Bertrand Gachot.
+            </p>
+          </div>
+          <div>
+            <h1>Encare qualquer Desafio !</h1>
+            <img className="car2" src="./img/rx-car-1-pn.png" alt="carro" />
+            <img id="carSom2" src="./img/rx-car-1-pn.png" alt="carro" />
+          </div>
+        </div>
+        <div className="slide1 slide-Three">
+        <div>
+            <h1>Venha conhecer esse Íncrivel Super esportivo! </h1>
+            <span className="circle3"></span>
             <p>
               Esse Super esportivo conta com: <br />
               Comprimento/largura/altura: 4590 mm/2075 mm/1120 mm <br />
@@ -82,21 +96,8 @@ const Slide = () => {
           </div>
           <div>
             <h1>De 0 a 300km/h em 3 segundos!</h1>
-            <img className="car2" src="./img/rx-car-1-pn.png" alt="carro" />
-            <img id="carSom2" src="./img/rx-car-1-pn.png" alt="carro" />
-          </div>
-        </div>
-        <div className="slide1 slide-Three">
-          <div>
-            <h1>IMAGINED ??</h1>
-            <p>
-              TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE
-              TESTE TESTE TESTE TESTETESTE TESTE TESTE TESTE TESTE TESTE TESTE
-              TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE
-            </p>
-          </div>
-          <div>
-            <img src="./img/rx-car-dentro.jpg" alt="carro" />
+            <img className="car3" src="./img/rx-car-1-pn.png" alt="carro" />
+            <img id="carSom3" src="./img/rx-car-1-pn.png" alt="carro" />
           </div>
         </div>
       </div>
