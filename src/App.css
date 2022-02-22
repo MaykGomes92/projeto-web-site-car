@@ -19,7 +19,6 @@ body {
 /* ========= TOTAL SLIDES ==========*/
 
 .containerTotal {
-  background-color: black;
   height: 100vh;
   position: relative;
 }
@@ -43,6 +42,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  min-height: 100vh;
   background: linear-gradient(to bottom, #1b1630, #19181e);
 }
 
@@ -132,7 +132,7 @@ body {
 .slide-First p {
   font-size: 1.2rem;
   line-height: 30px;
-  width: 600px;
+  width: 625px;
 }
 
 .slide-First img {
@@ -145,7 +145,7 @@ body {
 
 #carSom {
   position: absolute;
-  bottom: -250px;
+  bottom: -205px;
   opacity: 0.2;
   transform: rotateX(180deg);
   animation: car1Passar 15s;
@@ -190,7 +190,7 @@ body {
 .slide-Second .circle2::after {
   content: "";
   position: absolute;
-  left: 1020px;
+  left: 930px;
   top: 400px;
   width: 900px;
   height: 900px;
@@ -251,7 +251,7 @@ body {
   position: absolute;
   transform: rotateX(180deg);
   filter: hue-rotate(180deg);
-  bottom: -250px;
+  bottom: -205px;
   opacity: 0.2;
   animation: car2Passar 27s ease-out;
   animation-delay: 10s;
@@ -358,7 +358,7 @@ body {
 
 #carSom3 {
   position: absolute;
-  bottom: -250px;
+  bottom: -205px;
   opacity: 0.2;
   transform: rotateX(180deg);
   animation: car3Passar 3s;

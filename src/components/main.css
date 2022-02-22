@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+  --fonth1: 'Cinzel', serif;
+  --fontH1Fades: 'Merriweather', serif;
+  --fontpFades: 'Saira Condensed', sans-serif;
+}
+
+#main1 {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #eceff5;
+}
+
+
+main .firstTitle{
+    text-align: center;
+    font-family: var(--fonth1);
+    padding-top: 30px;
+}
+.firstImgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+main .imgTitle{
+    width: 200px;
+    height: 100px;
+}
+
+.firstSection{
+    margin-top: 150px;
+}
+
+
+/* ===================== PRIMEIRA DIV SECTION =======================*/
+
+.firstDivSection{
+    display: flex;
+    width: 50vw;
+    margin-bottom: 100px;
+    padding-left: 100px;
+    margin-left: 100px;
+}
+
+.firstDivSection #sombraRoda{
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    transform: rotateX(-180deg);
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.699);
+    filter: blur(10px);
+    left: 140px;
+    bottom: -90px;
+}
+
+.firstDivSection h1{
+    color: #BE1E3E;
+    font-family: var(--fontH1Fades);
+}
+
+.firstDivSection img{
+    width: 300px;
+    margin-right: 10px;
+    animation:  rodar linear 10s infinite;
+}
+
+@keyframes rodar {
+    from{
+        transform: rotateZ(-360deg);
+    }
+}
+
+.firstDivSection p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+    font-size: 1.2rem;
+    font-family: var(--fontpFades);
+    padding-left: 10px;
+}
+
+.firstDivSection .linhaFirstDiv{
+    width: 600px;
+    margin-top: 10px;
+    padding: 0;
+    background-color: rebeccapurple;
+    height: 3px;
+}
+
+
+/* ===================== SEGUNDA DIV SECTION =======================*/
+
+.secondDivSection {
+    display: flex;
+    width: 50vw;
+    margin-left: auto;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.secondDivSection h1{
+    color: #BE1E3E;
+    font-family: var(--fontH1Fades);
+    margin-right: 100px;
+    margin-left: -50px;
+}
+
+.secondDivSection p {
+    margin-top: 10px;
+    width: 400px;
+    font-size: 1.2rem;
+    font-family: var(--fontpFades);
+    margin-right: 30px;
+    margin-left: -20px;
+}
+
+.secondDivSection p .linhaFirstSecond{
+    width: 500px;
+    margin-top: 10px;
+    padding: 0;
+    background-color: rebeccapurple;
+    height: 3px;
+}
+
+.secondDivSection img{
+    width: 300px;
+    margin-top: -20px;
+    animation: motor 2s alternate infinite ;
+}
+
+.secondDivSection #sombraMotor{
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    transform: rotateX(-180deg);
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.699);
+    filter: blur(10px);
+    top: 260px;
+    left: 450px;
+}
+
+@keyframes motor{
+    from{
+        transform: scale(1.1);
+    }
+}

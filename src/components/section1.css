@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+:root{
+    --robotoFont: 'Roboto', sans-serif;
+    --gideonFontP: 'Gideon Roman', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#section1{
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #1b1630, #19181e);
+}
+
+#section1 .firstTitle{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    margin-bottom: -60px;
+}
+
+#section1 .containerEspecifi{
+    width: 100vw;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#eceff5;
+    padding: 100px;
+}
+
+#section1 .containerEspecifi .buttonsEspecifi{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.ativarCaixa {
+    transition: all 0.3s linear;
+    box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.356);
+}
+
+
+/* ================== BUTTON 1 ================== */
+
+.containerEspecifi .buttonsEspecifi .button1{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    height: 90px;
+    background-color: #E2E6EC;
+    width: 500px;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: var(--robotoFont);
+    font-weight: 300;
+}
+.containerEspecifi .buttonsEspecifi .button1 p{
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.logo-divButton1{
+    width: 50px;
+    position: absolute;
+    right: 5px;
+}
+/* ================== BUTTON 2 ================== */
+
+.containerEspecifi .buttonsEspecifi .button2{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    height: 90px;
+    background-color: #E2E6EC;
+    width: 500px;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 40px 0;
+    font-family: var(--robotoFont);
+    font-weight: 300;
+}
+
+.containerEspecifi .buttonsEspecifi .button2 p{
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.logo-divButton2{
+    width: 50px;
+    position: absolute;
+    right: 5px;
+}
+
+/* ================== BUTTON 3 ================== */
+.containerEspecifi .buttonsEspecifi .button3{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    height: 90px;
+    background-color: #E2E6EC;
+    width: 500px;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: var(--robotoFont);
+    font-weight: 300;
+}
+
+.containerEspecifi .buttonsEspecifi .button3 p{
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.logo-divButton3{
+    width: 50px;
+    position: absolute;
+    right: 5px;
+}
+/* =============================================== */
+
+
+.textosEspecifi{
+    width: 30%;
+    color: #fff;
+    margin-left: -200px;
+    border: 5px solid whitesmoke;
+    padding: 14px;
+}
+
+.textosEspecifi p{
+    font-size: 1.5rem;
+    line-height: 35px;
+    color: black;
+    opacity: 1;
+    animation: texEs 1s linear alternate;
+    font-family: var(--gideonFontP);
+}
+
+@keyframes texEs{
+    from{
+        opacity: 0.5;
+    }
+}
