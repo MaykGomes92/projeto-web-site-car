@@ -156,3 +156,57 @@ main .imgTitle{
         transform: scale(1.1);
     }
 }
+
+
+/* ==================== RESPONSIVIDADE ====================== */
+
+
+@media (max-width: 500px){
+    .secondDivSection #sombraMotor{
+        display: none;
+    }
+    .firstDivSection #sombraRoda{
+        display: none;
+    }
+}
+
+@media (max-width:1050px){
+
+    .firstDivSection{
+        margin-left: 30px;
+        padding-left: 20px;
+    }
+
+    .firstDivSection img{
+        width: 200px;
+    }
+
+    .firstDivSection #sombraRoda{
+        left: 20px;
+        bottom: -50px;
+        width: 200px;
+    }
+
+    .firstDivSection .linhaFirstDiv{
+        width: 450px;
+    }
+
+
+    /* =================== SECOND SECTION =============*/
+    .secondDivSection{
+        margin-left: 390px;
+    }
+
+    .secondDivSection #sombraMotor{
+        width: 200px;
+        margin-left: -50px;
+    }
+
+    .secondDivSection p .linhaFirstSecond{
+        width: 400px;
+    }
+
+    .secondDivSection img{
+        width: 200px;
+    }
+}

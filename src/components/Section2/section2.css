@@ -85,3 +85,14 @@
 .buttonActive{
     background-color: #311e75 !important;
 }
+
+/* =================== RESPONSIVIDADE ======================= */
+
+@media (max-width:1050px){
+
+    .campeao h2{
+        font-size: 2rem;
+        padding-top: 40px;
+    }
+
+}

@@ -47,3 +47,12 @@
     font-size: 1rem;
     color: whitesmoke;
 }
+
+
+/* ======================== RESPONSIVIDADE ======================= */
+
+@media (max-width:1050px){
+    .footer{
+    }
+
+}

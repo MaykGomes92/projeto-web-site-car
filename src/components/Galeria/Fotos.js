@@ -3,7 +3,7 @@ import {AiOutlineHome} from 'react-icons/ai'
 import '../Galeria/fotos.css';
 const Fotos = () => {
   return (
-    <main>
+    <main className='galer-fotos'>
         <header className='header-fotos'>
             <a href='/'><AiOutlineHome className='icon-house-fotos'/></a>
             <h1>Galeria de Fotos</h1>

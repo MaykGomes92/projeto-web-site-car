@@ -1,4 +1,4 @@
-main{
+.galer-fotos{
     min-height: 100vh;
     width: 100vw;
     background: linear-gradient(to bottom, #1b1630, #19181e);
@@ -27,14 +27,14 @@ main{
     filter: brightness(300%);
 }
 
-main article{
+.galer-fotos article{
     display: grid;
     grid-template-columns: 31% 31% 31%;
     gap: 50px;
     justify-content: center;
 }
 
-main article img{
+.galer-fotos article img{
     width: 100%;
     height: 300px;
 }

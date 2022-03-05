@@ -20,7 +20,7 @@ const Slide = () => {
       <div className="slides" ref={distancia}>
         <div className="slide1 slide-First">
           <div>
-            <h1>IMAGINE ?</h1>
+            <h1 id="h1-imagine">IMAGINE ?</h1>
             <span id="circle"></span>
             <p>
               Imagine dirigir uma máquina dessas. Uma Mercedes F1 W05 Hybrid
@@ -44,7 +44,7 @@ const Slide = () => {
             </p>
           </div>
           <div>
-            <h1>Encara qualquer Desafio !</h1>
+            <h1 id="second-h1">Encara qualquer Desafio !</h1>
             <img className="car2" src="./img/form-1.png" alt="carro" />
             <img id="carSom2" src="./img/form-1.png" alt="carro" />
           </div>
@@ -64,7 +64,7 @@ const Slide = () => {
             </p>
           </div>
           <div>
-            <h1>De 0 a 300km/h em 3 segundos!</h1>
+            <h1 id="three-h1">De 0 a 300km/h em 3 segundos!</h1>
             <img className="car3" src="./img/form-1.png" alt="carro" />
             <img id="carSom3" src="./img/form-1.png" alt="carro" />
           </div>

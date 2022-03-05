@@ -159,3 +159,74 @@
         opacity: 0.5;
     }
 }
+
+
+/* ================== RESPONSIVIDADE LANÇAMENTO ================ */
+
+
+@media(max-width:1050px){
+    .textosEspecifi{
+        margin-left: 200px;
+        width: 440px;
+    }
+    
+    .textosEspecifi p{
+        width: 400px;
+        font-size: 1rem;
+    }
+
+    .containerEspecifi .buttonsEspecifi .button1{
+        width: 400px;
+        font-size: 1.4rem;
+    }
+    .containerEspecifi .buttonsEspecifi .button2{
+        width: 400px;
+        font-size: 1.4rem;
+    }
+
+    .containerEspecifi .buttonsEspecifi .button3{
+        width: 400px;
+        font-size: 1.4rem;
+    }
+}
+
+/* =============================== WIDTH 500PX =============================*/
+@media (max-width:500px){
+    .containerEspecifi .buttonsEspecifi .button1{
+        font-size: 2rem;
+        min-width: 100%;
+    }
+
+    
+
+}
+
+@media (max-width:900px){
+    .containerEspecifi .buttonsEspecifi .button1{
+        width: 300px;
+        padding-right: 40px;
+        font-size: 1.4rem;
+    }
+    .containerEspecifi .buttonsEspecifi .button2{
+        width: 300px;
+        font-size: 1.4rem;
+    }
+
+    .containerEspecifi .buttonsEspecifi .button2{
+        padding-right: 40px;
+    }
+
+    .containerEspecifi .buttonsEspecifi .button3{
+        padding-right: 40px;
+        width: 300px;
+        font-size: 1.4rem;
+    }
+
+    .textosEspecifi{
+        min-width: 350px;
+    }
+
+    .textosEspecifi p{
+        font-size: 1.1rem;
+    }
+}
