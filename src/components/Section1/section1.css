@@ -160,6 +160,19 @@
 
 /* ================== RESPONSIVIDADE LANÇAMENTO ================ */
 
+@media (max-width: 1710px) { 
+  .textosEspecifi{
+    margin-top: 10px;
+  margin-left: 5px;
+}
+
+.textosEspecifi  p{
+    text-align: center;
+    font-size: 1.1rem;
+  }
+}
+
+
 @media (max-width: 1050px) {
   .textosEspecifi {
     margin-left: 200px;
@@ -188,6 +201,9 @@
 
 /* =============================== WIDTH 500PX =============================*/
 
+
+
+
 @media (max-width: 900px) {
   .containerEspecifi .buttonsEspecifi .button1 {
     width: 300px;
@@ -215,59 +231,47 @@
   }
 }
 
-@media (max-width: 1710px) { 
-  .textosEspecifi{
-    margin-top: 10px;
-  margin-left: 5px;
-}
-
-.textosEspecifi  p{
-    text-align: center;
-    font-size: 1.1rem;
-  }
-}
-
 @media (max-width: 500px) {
- #section1 .containerEspecifi {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    align-items: center;
-}
-
-.containerEspecifi .buttonsEspecifi{
-    display: flex;
-    width: 390px;
-    margin-right: auto;
-    margin-left: -25px;
-}
-
-  .containerEspecifi .buttonsEspecifi .button1 {
-    width: 250px;
-    padding-right: 40px;
-    font-size: 1rem;
-  }
-  .containerEspecifi .buttonsEspecifi .button2 {
-    width: 250px;
-    font-size: 1rem;
-    padding-right: 40px;
-  }
-
-  .containerEspecifi .buttonsEspecifi .button3 {
-    padding-right: 40px;
-    width: 250px;
-    font-size: 1rem;
-  }
-
-  .textosEspecifi{
-      margin-top: 10px;
-    margin-left: 5px;
-}
-
-  .textosEspecifi  p{
-      width: 350px;
-      padding-left: 25px;
-      text-align: center;
-      font-size: 0.8rem;
-    }
-}
+  #section1 .containerEspecifi {
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+     align-items: center;
+ }
+ 
+ .containerEspecifi .buttonsEspecifi{
+     display: flex;
+     width: 390px;
+     margin-right: auto;
+     margin-left: -25px;
+ }
+ 
+   .containerEspecifi .buttonsEspecifi .button1 {
+     width: 250px;
+     padding-right: 40px;
+     font-size: 1rem;
+   }
+   .containerEspecifi .buttonsEspecifi .button2 {
+     width: 250px;
+     font-size: 1rem;
+     padding-right: 40px;
+   }
+ 
+   .containerEspecifi .buttonsEspecifi .button3 {
+     padding-right: 40px;
+     width: 250px;
+     font-size: 1rem;
+   }
+ 
+   .textosEspecifi{
+       margin-top: 10px;
+     margin-left: 5px;
+ }
+ 
+   .textosEspecifi  p{
+       width: 350px;
+       padding-left: 25px;
+       text-align: center;
+       font-size: 0.8rem;
+     }
+ }
