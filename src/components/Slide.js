@@ -6,7 +6,7 @@ const Slide = () => {
   React.useEffect(
     (e) => {
       setInterval(() => {
-        distancia.current.scrollLeft += 1920;
+        distancia.current.scrollLeft += distancia.current.offsetWidth;
       }, 10000);
       setInterval(() => {
         distancia.current.scrollLeft = 0;
@@ -16,7 +16,7 @@ const Slide = () => {
   );
 
   return (
-    <header className="containerTotal">
+    <header className="containerTotal" id="slide-house">
       <div className="slides" ref={distancia}>
         <div className="slide1 slide-First">
           <div>

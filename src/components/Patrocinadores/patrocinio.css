@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+:root{
+  --fonth1: 'Cinzel', serif;
+  --fontp:  'Roboto', sans-serif;
+}
+
+.container-patrocinio{
+    height: 310px;
+    background-color: #ECEFF5;
+    align-items: center;
+}
+
+.container-patrocinio h1{
+    text-align: center;
+    background: linear-gradient(to bottom,#19181F,#19181F);
+    color: white;
+    padding: 30px 0;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-family: var(--fonth1);
+}
+
+.slide-patrocinio{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.slide-patrocinio div{
+    display: flex;
+    animation: passar 15s infinite linear;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@keyframes passar{
+    to{
+        margin-left: -2600px;
+    }from{
+        margin-left: 1500px;
+    }
+}
+
+.slide-patrocinio img{
+    width: 100px;
+    height: 100px;
+}
+
+.slide-patrocinio img + img{
+    margin-left: 200px;
+}

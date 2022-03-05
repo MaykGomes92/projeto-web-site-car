@@ -10,6 +10,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -90,7 +91,7 @@ body {
 .slide-First #circle::after {
   content: "";
   position: absolute;
-  left: 1060px;
+  left: 1070px;
   top: 400px;
   width: 900px;
   height: 900px;
@@ -190,7 +191,7 @@ body {
 .slide-Second .circle2::after {
   content: "";
   position: absolute;
-  left: 930px;
+  left: 940px;
   top: 400px;
   width: 900px;
   height: 900px;
@@ -302,7 +303,7 @@ body {
 .slide-Three .circle3::after {
   content: "";
   position: absolute;
-  left: 810px;
+  left: 830px;
   top: 800px;
   width: 900px;
   height: 900px;

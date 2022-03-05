@@ -1,0 +1,33 @@
+.navLeft{
+    position: fixed;
+    width: 50px;
+    height: 400px;
+    top: 50px;
+    left: 0;
+    padding-top: 20px;
+    z-index: 999999;
+    background: linear-gradient(to bottom,rgb(0, 0, 0),rgb(90, 25, 90));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-menu{
+    color: rgb(236, 233, 241);
+    font-size: 2rem;
+    transition: all 0.5s;
+}
+
+
+.navLeft ul li + li{
+    margin-top: 75px;
+}
+
+.navLeft ul li a {
+    padding: 30px;
+}
+
+.navLeft .icon-menu:hover{
+    color: darkred;
+}

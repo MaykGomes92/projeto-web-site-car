@@ -33,6 +33,7 @@
     justify-content: space-evenly;
     background-color:#eceff5;
     padding: 100px;
+    height: 600px;
 }
 
 #section1 .containerEspecifi .buttonsEspecifi{
@@ -141,6 +142,7 @@
     margin-left: -200px;
     border: 5px solid whitesmoke;
     padding: 14px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.377);
 }
 
 .textosEspecifi p{

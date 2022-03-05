@@ -1,8 +1,9 @@
 import React from "react";
-import "./section1.css";
+import Patrocinio from "../Patrocinadores/Patrocinio";
+import "../Section1/section1.css";
 
 const Section1 = () => {
-  const [btnText, setBtnText] = React.useState("");
+  const [btnText, setBtnText] = React.useState("button1");
 
   function handleClick(e) {
     setBtnText(e.target.getAttribute("class"));
@@ -25,16 +26,36 @@ const Section1 = () => {
           </p>
         </>
       );
-    } else if (btnText === "button2" || btnText === "pDiv2") {
+    } else if (
+      btnText === "button2" ||
+      btnText === "pDiv2" ||
+      btnText === "logo-divButton2"
+    ) {
       return (
         <>
-          <p>F1 W05 Hybrid é o modelo da Mercedes da temporada de 2014 da Fórmula 1. O carro foi pilotado por Nico Rosberg e Lewis Hamilton. O modelo destacou-se sobre os outros carros da temporada de 2014 por causa do motor e de sua aerodinâmica, conquistando o título do Mundial de Construtores antecipadamente.</p>
+          <p>
+            F1 W05 Hybrid é o modelo da Mercedes da temporada de 2014 da Fórmula
+            1. O carro foi pilotado por Nico Rosberg e Lewis Hamilton. O modelo
+            destacou-se sobre os outros carros da temporada de 2014 por causa do
+            motor e de sua aerodinâmica, conquistando o título do Mundial de
+            Construtores antecipadamente.
+          </p>
         </>
       );
-    } else if (btnText === "button3" || btnText === "pDiv3") {
+    } else if (
+      btnText === "button3" ||
+      btnText === "pDiv3" ||
+      btnText === "logo-divButton3"
+    ) {
       return (
         <>
-          <p>Desde que a Fórmula 1 passou a adotar motores híbridos, em 2014, só deu Mercedes. E sempre com dobradinha carro-piloto. A série imbatível dos carros F1 W05, W06, W07, W08, W09 e W10 começou em 2014, ano do bicampeonato de Lewis Hamilton. Então até anos se passarem, a Mercedes e a linha W foram hexacampeão da F1.</p>
+          <p>
+            Desde que a Fórmula 1 passou a adotar motores híbridos, em 2014, só
+            deu Mercedes. E sempre com dobradinha carro-piloto. A série
+            imbatível dos carros F1 W05, W06, W07, W08, W09 e W10 começou em
+            2014, ano do bicampeonato de Lewis Hamilton. Então até anos se
+            passarem, a Mercedes e a linha W foram hexacampeão da F1.
+          </p>
         </>
       );
     } else {
@@ -53,11 +74,19 @@ const Section1 = () => {
           document.querySelector(".button3").classList.remove("ativarCaixa");
           document.querySelector(".button2").classList.remove("ativarCaixa");
           document.querySelector(".button1").classList.add("ativarCaixa");
-        } else if (btnText === "button2" || btnText === "pDiv2") {
+        } else if (
+          btnText === "button2" ||
+          btnText === "pDiv2" ||
+          btnText === "logo-divButton2"
+        ) {
           document.querySelector(".button1").classList.remove("ativarCaixa");
           document.querySelector(".button3").classList.remove("ativarCaixa");
           document.querySelector(".button2").classList.add("ativarCaixa");
-        } else if (btnText === "button3" || btnText === "pDiv3") {
+        } else if (
+          btnText === "button3" ||
+          btnText === "pDiv3" ||
+          btnText === "logo-divButton3"
+        ) {
           document.querySelector(".button1").classList.remove("ativarCaixa");
           document.querySelector(".button2").classList.remove("ativarCaixa");
           document.querySelector(".button3").classList.add("ativarCaixa");
@@ -73,7 +102,7 @@ const Section1 = () => {
 
   return (
     <section id="section1">
-      <h1 className="firstTitle">Lançamento</h1>
+      <h1 className="firstTitle" id="ancor-lan">Lançamento</h1>
 
       <div className="containerEspecifi">
         <div className="buttonsEspecifi">
@@ -111,6 +140,7 @@ const Section1 = () => {
           <DefinirInformacao className="textosP" />
         </div>
       </div>
+      <Patrocinio />
     </section>
   );
 };

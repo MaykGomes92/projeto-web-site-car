@@ -1,7 +1,7 @@
 import React from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import "./main.css";
+import "../Main/main.css";
 
 const Main = () => {
   //  data-aos="fade-up"
