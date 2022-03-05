@@ -348,8 +348,9 @@ body {
 
 /* =================== RESPONSIVIDADE SLIDE HEADER ======================= */
 
+/* ================== CANCELANDO ANIMAÇÕES ================== */
+
 @media (max-width: 1050px) {
-  /* ================== CANCELANDO ANIMAÇÕES ================== */
   .slide-First .car1 {
     animation: none;
   }
@@ -396,8 +397,7 @@ body {
   }
 
   .slide-First #circle {
-    width: 500px;
-    height: 500px;
+    display: none;
   }
 
   .slide-First #circle::after {
@@ -500,7 +500,7 @@ body {
 
 @media (max-width: 500px) {
   .slide-First {
-    max-height: 100vh;
+    min-height: 100vh;
   }
 
   .slide-First #h1-imagine{
@@ -538,7 +538,7 @@ body {
   /* ============ SLIDE SECOND ====================*/
 
   .slide-Second {
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .slide-Second h1 {
@@ -576,7 +576,7 @@ body {
   /* ============ SLIDE THREE ====================*/
 
   .slide-Three {
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .slide-Three h1 {

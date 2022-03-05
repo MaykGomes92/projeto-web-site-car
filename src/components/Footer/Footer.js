@@ -5,7 +5,7 @@ import { RiLinkedinBoxLine } from "react-icons/ri";
 import { BsGithub } from "react-icons/bs";
 import { IoLogoWhatsapp } from "react-icons/io";
 
-const footer = () => {
+const Footer = () => {
   return (
     <footer className="footer">
       <nav>
@@ -49,4 +49,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
