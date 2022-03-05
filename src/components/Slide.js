@@ -22,7 +22,7 @@ const Slide = () => {
           <div>
             <h1 id="h1-imagine">IMAGINE ?</h1>
             <span id="circle"></span>
-            <p>
+            <p id="teste">
               Imagine dirigir uma máquina dessas. Uma Mercedes F1 W05 Hybrid
               <br />
               Originalmente conhecido como Mercedes F1 W05 , foi um carro de corrida de Fórmula 1 da Mercedes-Benz de grande sucesso projetado e desenvolvido sob a direção de Bob Bell , Aldo Costa , Geoff Willis , Loïc Serra , Russell Cooley , John Owen , Mike Elliott e Jarrod Murphy para competir no Campeonato Mundial de Fórmula 1 da FIA 2014 .

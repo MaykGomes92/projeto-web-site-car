@@ -1,232 +1,273 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap");
 
-:root{
-    --robotoFont: 'Roboto', sans-serif;
-    --gideonFontP: 'Gideon Roman', cursive;
+:root {
+  --robotoFont: "Roboto", sans-serif;
+  --gideonFontP: "Gideon Roman", cursive;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#section1{
-    width: 100vw;
-    min-height: 100vh;
-    background: linear-gradient(to bottom, #1b1630, #19181e);
+#section1 {
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1b1630, #19181e);
 }
 
-#section1 .firstTitle{
-    text-align: center;
-    color: #fff;
-    letter-spacing: 2px;
-    font-size: 2rem;
-    margin-bottom: -60px;
+#section1 .firstTitle {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  margin-bottom: -60px;
 }
 
-#section1 .containerEspecifi{
-    width: 100vw;
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-evenly;
-    background-color:#eceff5;
-    padding: 100px;
-    height: 600px;
+#section1 .containerEspecifi {
+  width: 100vw;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #eceff5;
+  padding: 100px;
+  height: 600px;
 }
 
-#section1 .containerEspecifi .buttonsEspecifi{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 30%;
+#section1 .containerEspecifi .buttonsEspecifi {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30%;
 }
 
 .ativarCaixa {
-    transition: all 0.3s linear;
-    box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.356);
+  transition: all 0.3s linear;
+  box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.356);
 }
-
 
 /* ================== BUTTON 1 ================== */
 
-.containerEspecifi .buttonsEspecifi .button1{
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-    height: 90px;
-    background-color: #E2E6EC;
-    width: 500px;
-    flex-direction: column;
-    text-align: center;
-    position: relative;
-    cursor: pointer;
-    font-size: 2rem;
-    font-family: var(--robotoFont);
-    font-weight: 300;
+.containerEspecifi .buttonsEspecifi .button1 {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  height: 90px;
+  background-color: #e2e6ec;
+  width: 500px;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: var(--robotoFont);
+  font-weight: 300;
 }
-.containerEspecifi .buttonsEspecifi .button1 p{
-    display: inline-block;
-    font-size: 1rem;
+.containerEspecifi .buttonsEspecifi .button1 p {
+  display: inline-block;
+  font-size: 1rem;
 }
 
-.logo-divButton1{
-    width: 50px;
-    position: absolute;
-    right: 5px;
+.logo-divButton1 {
+  width: 50px;
+  position: absolute;
+  right: 5px;
 }
 /* ================== BUTTON 2 ================== */
 
-.containerEspecifi .buttonsEspecifi .button2{
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-    height: 90px;
-    background-color: #E2E6EC;
-    width: 500px;
-    flex-direction: column;
-    text-align: center;
-    position: relative;
-    cursor: pointer;
-    font-size: 2rem;
-    margin: 40px 0;
-    font-family: var(--robotoFont);
-    font-weight: 300;
+.containerEspecifi .buttonsEspecifi .button2 {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  height: 90px;
+  background-color: #e2e6ec;
+  width: 500px;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 40px 0;
+  font-family: var(--robotoFont);
+  font-weight: 300;
 }
 
-.containerEspecifi .buttonsEspecifi .button2 p{
-    display: inline-block;
-    font-size: 1rem;
+.containerEspecifi .buttonsEspecifi .button2 p {
+  display: inline-block;
+  font-size: 1rem;
 }
 
-.logo-divButton2{
-    width: 50px;
-    position: absolute;
-    right: 5px;
+.logo-divButton2 {
+  width: 50px;
+  position: absolute;
+  right: 5px;
 }
 
 /* ================== BUTTON 3 ================== */
-.containerEspecifi .buttonsEspecifi .button3{
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-    height: 90px;
-    background-color: #E2E6EC;
-    width: 500px;
-    flex-direction: column;
-    text-align: center;
-    position: relative;
-    cursor: pointer;
-    font-size: 2rem;
-    font-family: var(--robotoFont);
-    font-weight: 300;
+.containerEspecifi .buttonsEspecifi .button3 {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  height: 90px;
+  background-color: #e2e6ec;
+  width: 500px;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: var(--robotoFont);
+  font-weight: 300;
 }
 
-.containerEspecifi .buttonsEspecifi .button3 p{
-    display: inline-block;
-    font-size: 1rem;
+.containerEspecifi .buttonsEspecifi .button3 p {
+  display: inline-block;
+  font-size: 1rem;
 }
 
-.logo-divButton3{
-    width: 50px;
-    position: absolute;
-    right: 5px;
+.logo-divButton3 {
+  width: 50px;
+  position: absolute;
+  right: 5px;
 }
 /* =============================================== */
 
-
-.textosEspecifi{
-    width: 30%;
-    color: #fff;
-    margin-left: -200px;
-    border: 5px solid whitesmoke;
-    padding: 14px;
-    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.377);
+.textosEspecifi {
+  width: 30%;
+  color: #fff;
+  margin-left: -200px;
+  border: 5px solid whitesmoke;
+  padding: 14px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.377);
 }
 
-.textosEspecifi p{
-    font-size: 1.5rem;
-    line-height: 35px;
-    color: black;
-    opacity: 1;
-    animation: texEs 1s linear alternate;
-    font-family: var(--gideonFontP);
+.textosEspecifi p {
+  font-size: 1.5rem;
+  line-height: 35px;
+  color: black;
+  opacity: 1;
+  animation: texEs 1s linear alternate;
+  font-family: var(--gideonFontP);
 }
 
-@keyframes texEs{
-    from{
-        opacity: 0.5;
-    }
+@keyframes texEs {
+  from {
+    opacity: 0.5;
+  }
 }
-
 
 /* ================== RESPONSIVIDADE LANÇAMENTO ================ */
 
+@media (max-width: 1050px) {
+  .textosEspecifi {
+    margin-left: 200px;
+    width: 440px;
+  }
 
-@media(max-width:1050px){
-    .textosEspecifi{
-        margin-left: 200px;
-        width: 440px;
-    }
-    
-    .textosEspecifi p{
-        width: 400px;
-        font-size: 1rem;
-    }
+  .textosEspecifi p {
+    width: 400px;
+    font-size: 1rem;
+  }
 
-    .containerEspecifi .buttonsEspecifi .button1{
-        width: 400px;
-        font-size: 1.4rem;
-    }
-    .containerEspecifi .buttonsEspecifi .button2{
-        width: 400px;
-        font-size: 1.4rem;
-    }
+  .containerEspecifi .buttonsEspecifi .button1 {
+    width: 400px;
+    font-size: 1.4rem;
+  }
+  .containerEspecifi .buttonsEspecifi .button2 {
+    width: 400px;
+    font-size: 1.4rem;
+  }
 
-    .containerEspecifi .buttonsEspecifi .button3{
-        width: 400px;
-        font-size: 1.4rem;
-    }
+  .containerEspecifi .buttonsEspecifi .button3 {
+    width: 400px;
+    font-size: 1.4rem;
+  }
 }
 
 /* =============================== WIDTH 500PX =============================*/
-@media (max-width:500px){
-    .containerEspecifi .buttonsEspecifi .button1{
-        font-size: 2rem;
-        min-width: 100%;
-    }
 
-    
+@media (max-width: 900px) {
+  .containerEspecifi .buttonsEspecifi .button1 {
+    width: 300px;
+    padding-right: 40px;
+    font-size: 1.4rem;
+  }
+  .containerEspecifi .buttonsEspecifi .button2 {
+    width: 300px;
+    font-size: 1.4rem;
+    padding-right: 40px;
+  }
 
+  .containerEspecifi .buttonsEspecifi .button3 {
+    padding-right: 40px;
+    width: 300px;
+    font-size: 1.4rem;
+  }
+
+  .textosEspecifi {
+    min-width: 350px;
+  }
+
+  .textosEspecifi p {
+    font-size: 1.1rem;
+  }
 }
 
-@media (max-width:900px){
-    .containerEspecifi .buttonsEspecifi .button1{
-        width: 300px;
-        padding-right: 40px;
-        font-size: 1.4rem;
-    }
-    .containerEspecifi .buttonsEspecifi .button2{
-        width: 300px;
-        font-size: 1.4rem;
-    }
+@media (max-width: 1710px) { 
+  .textosEspecifi{
+    margin-top: 10px;
+  margin-left: 5px;
+}
 
-    .containerEspecifi .buttonsEspecifi .button2{
-        padding-right: 40px;
-    }
+.textosEspecifi  p{
+    text-align: center;
+    font-size: 1.1rem;
+  }
+}
 
-    .containerEspecifi .buttonsEspecifi .button3{
-        padding-right: 40px;
-        width: 300px;
-        font-size: 1.4rem;
-    }
+@media (max-width: 500px) {
+ #section1 .containerEspecifi {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
 
-    .textosEspecifi{
-        min-width: 350px;
-    }
+.containerEspecifi .buttonsEspecifi{
+    display: flex;
+    width: 390px;
+    margin-right: auto;
+    margin-left: -25px;
+}
 
-    .textosEspecifi p{
-        font-size: 1.1rem;
+  .containerEspecifi .buttonsEspecifi .button1 {
+    width: 250px;
+    padding-right: 40px;
+    font-size: 1rem;
+  }
+  .containerEspecifi .buttonsEspecifi .button2 {
+    width: 250px;
+    font-size: 1rem;
+    padding-right: 40px;
+  }
+
+  .containerEspecifi .buttonsEspecifi .button3 {
+    padding-right: 40px;
+    width: 250px;
+    font-size: 1rem;
+  }
+
+  .textosEspecifi{
+      margin-top: 10px;
+    margin-left: 5px;
+}
+
+  .textosEspecifi  p{
+      width: 350px;
+      padding-left: 25px;
+      text-align: center;
+      font-size: 0.8rem;
     }
 }

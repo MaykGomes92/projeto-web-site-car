@@ -51,8 +51,8 @@
 
 /* ======================== RESPONSIVIDADE ======================= */
 
-@media (max-width:1050px){
-    .footer{
+@media (max-width:500px){
+    .footer article h2{
+        font-size: 0.6rem;
     }
-
 }

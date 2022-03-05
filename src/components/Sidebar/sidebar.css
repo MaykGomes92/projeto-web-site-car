@@ -31,3 +31,16 @@
 .navLeft .icon-menu:hover{
     color: rgb(190, 85, 190);
 }
+
+/* ================== RESPONSIVIDADE ======================== */
+
+@media(max-width:1050px){
+    .navLeft{
+        height: 350px;
+        margin-top: 50px;
+    }
+
+    .navLeft ul li + li{
+        margin-top: 20px;
+    }
+}

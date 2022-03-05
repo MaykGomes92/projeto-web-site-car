@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap");
 
-:root{
-  --fonth1: 'Cinzel', serif;
-  --fontp:  'Roboto', sans-serif;
+:root {
+  --fonth1: "Cinzel", serif;
+  --fontp: "Roboto", sans-serif;
 }
 
 * {
@@ -46,22 +46,6 @@ body {
   min-height: 100vh;
   background: linear-gradient(to bottom, #1b1630, #19181e);
 }
-
-.slide-First #aImagine {
-  display: flex;
-  text-decoration: none;
-  color: rgb(128, 0, 255);
-  margin-left: 10px;
-  margin-top: 15px;
-  background-color: rgb(255, 255, 255);
-  cursor: pointer;
-  padding: 5px 15px;
-  border-radius: 20px;
-  text-align: center;
-  justify-content: center;
-  margin-left: -20px;
-}
-
 
 .slide-First div:first-child {
   display: flex;
@@ -362,54 +346,52 @@ body {
 }
 /*============================================*/
 
-
 /* =================== RESPONSIVIDADE SLIDE HEADER ======================= */
 
-@media (max-width:1050px){
-
+@media (max-width: 1050px) {
   /* ================== CANCELANDO ANIMAÇÕES ================== */
-  .slide-First .car1{
+  .slide-First .car1 {
     animation: none;
   }
 
-  .slide-First #carSom{
+  .slide-First #carSom {
     animation: none;
   }
 
-  .slide-Second .car2{
+  .slide-Second .car2 {
     animation: none;
   }
 
-  .slide-Second #carSom2{
+  .slide-Second #carSom2 {
     animation: none;
   }
 
-  .slide-Three .car3{
+  .slide-Three .car3 {
     animation: none;
   }
 
-  .slide-Three #carSom3{
+  .slide-Three #carSom3 {
     animation: none;
   }
 
   /* ======================== SLIDE FIRST ================================= */
 
-  .slide-First{
+  .slide-First {
     min-height: 100vh;
   }
 
-  .slide-First h1{
+  .slide-First h1 {
     font-size: 1.3rem;
     width: 270px;
     margin-left: 100px;
   }
 
-  .slide-First #h1-imagine{
+  .slide-First #h1-imagine {
     font-size: 1.3rem;
     width: 330px;
   }
 
-  .slide-First p{
+  .slide-First p {
     font-size: 1rem;
   }
 
@@ -417,7 +399,7 @@ body {
     width: 500px;
     height: 500px;
   }
-  
+
   .slide-First #circle::after {
     width: 500px;
     height: 500px;
@@ -430,23 +412,23 @@ body {
     margin-top: 80px;
   }
 
-  #carSom{
+  #carSom {
     top: 200px;
   }
 
   /* ======================== SLIDE SECOND ================================= */
 
-  .slide-Second{
+  .slide-Second {
     min-height: 100vh;
   }
 
-  .slide-Second img{
+  .slide-Second img {
     width: 400px;
     margin-top: 80px;
     margin-left: 95px;
   }
 
-  .slide-Second h1{
+  .slide-Second h1 {
     margin-left: 100px;
     font-size: 1.3rem;
   }
@@ -455,7 +437,7 @@ body {
     width: 500px;
     height: 500px;
   }
-  
+
   .slide-Second .circle2::after {
     width: 500px;
     height: 500px;
@@ -463,24 +445,24 @@ body {
     left: 1100px;
   }
 
-  .slide-Second #second-h1{
+  .slide-Second #second-h1 {
     margin-left: 30px;
     font-size: 1.2rem;
     width: 200px;
     margin-bottom: -20px;
   }
 
-  #carSom2{
+  #carSom2 {
     top: 200px;
   }
 
   /* ======================== SLIDE THREE ================================= */
 
-  .slide-Three{
+  .slide-Three {
     min-height: 100vh;
   }
 
-  .slide-Three h1{
+  .slide-Three h1 {
     margin-left: 100px;
     font-size: 1.3rem;
   }
@@ -490,7 +472,7 @@ body {
     height: 500px;
   }
 
-  .slide-Three #three-h1{
+  .slide-Three #three-h1 {
     margin-left: 40px;
     font-size: 1.3rem;
     width: 200px;
@@ -504,14 +486,127 @@ body {
     left: 1040px;
   }
 
-  .slide-Three img{
+  .slide-Three img {
     width: 400px;
     margin-top: 70px;
     margin-left: 70px;
   }
 
-  #carSom3{
+  #carSom3 {
     margin-left: -70px;
     top: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .slide-First {
+    max-height: 100vh;
+  }
+
+  .slide-First #h1-imagine{
+    margin-left: 120px;
+  }
+
+  .slide-First h1 {
+    font-size: 1rem;
+    margin-right: 60px;
+  }
+
+  .slide-First div:first-child{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slide-First div:first-child p {
+    width: 300px;
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  .slide-First #circle {
+    display: none;
+  }
+
+  .slide-First img {
+    margin-top: 0px;
+  }
+
+  #carSom {
+    display: none;
+  }
+
+  /* ============ SLIDE SECOND ====================*/
+
+  .slide-Second {
+    height: 100vh;
+  }
+
+  .slide-Second h1 {
+    font-size: 1rem;
+  }
+
+  .slide-Second div:first-child{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slide-Second div:first-child h1{
+    margin-left: 10px;
+  }
+
+  .slide-Second div:first-child p {
+    width: 300px;
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  .slide-Second img{
+    margin-top: 0px;
+    margin-left: 50px;
+  }
+
+  .slide-Second .circle2{
+    display: none;
+  }
+
+  #carSom2{
+    display: none;
+  }
+
+  /* ============ SLIDE THREE ====================*/
+
+  .slide-Three {
+    height: 100vh;
+  }
+
+  .slide-Three h1 {
+    font-size: 1rem;
+  }
+
+  .slide-Three div:first-child{
+    display: flex;
+    flex-direction: column;
+ }
+
+  .slide-Three div:first-child h1{
+    margin-left: 45px;
+  }
+  
+  .slide-Three .circle3{
+    display: none;
+  }
+  .slide-Three div:first-child p {
+    width: 300px;
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  .slide-Three img{
+    margin-top: 80px;
+    margin-left: 50px;
+  }
+
+  #carSom3{
+    display: none;
   }
 }

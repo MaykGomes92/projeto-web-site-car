@@ -96,3 +96,40 @@
     }
 
 }
+
+@media (max-width:500px){
+        .buttons{
+            display: flex;
+            margin-top: 20px;
+            height: 70px;
+            align-items: center;
+            margin-left: 10px;
+        }
+
+        .buttons button{
+            font-size: 1rem;
+            padding: 10px 20px;
+        }
+
+        .campeao{
+            width: 100%;
+        }
+
+        .campeao h2{
+            font-size: 1.3rem;
+        }
+
+        .campeao p{
+            font-size: 1rem;
+        }
+
+        .campeao div img{
+            height: 350px;
+        }
+
+        .campeao div:last-child img{
+            height: 300px;
+            padding-right: 30px;
+        }
+
+}

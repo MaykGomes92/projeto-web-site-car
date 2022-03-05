@@ -35,8 +35,7 @@ const Section2 = () => {
               substituindo Bruno Senna, que terminara a última temporada apenas
               na décima sexta posição. Em 2014, Bottas conquistou o primeiro
               pódio na categoria ao terminar o Grande Prêmio da Áustria em
-              terceiro lugar. Após o Grande Prêmio da Itália equipe o
-              confirmou para a temporada de 2015, juntamente com Felipe Massa.
+              terceiro lugar.
             </p>
           </div>
         </div>
@@ -54,8 +53,7 @@ const Section2 = () => {
               início de 2003, quando tinha apenas dezessete anos de idade, Nico
               se tornou o piloto mais jovem da história a andar num carro de
               Fórmula 1. Ajudado pelos contatos do pai, o ex-campeão Keke
-              Rosberg, passou sem dificuldades pelas principais categorias de
-              base, conquistando inclusive o título da GP2 Series em 2005.
+              Rosberg, passou sem dificuldades pelas principais categorias de base.
             </p>
           </div>
         </div>
