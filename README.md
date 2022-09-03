@@ -30,7 +30,7 @@
 
 ![image](https://user-images.githubusercontent.com/77819811/156895847-7f0eefe0-ec05-4421-a0c7-eaa23150abf5.png)
 
-# Responsividade
+# Projeto Responsivo
 
 * Ainda falta dar alguns ajustes e retoques na responsividade / media queries farei isso com o tempo.
 
